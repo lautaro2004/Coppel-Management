@@ -1,0 +1,110 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: century gothic;
+	text-align: center;
+}
+body {
+    height: 90vh;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(/IMG/fondo_azul.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+}
+.login-container {
+    height: 50%;
+    width: 40%;
+    margin-left:auto;
+	margin-right: auto;
+	margin-top: 2%;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.5);
+	border: 2px solid white;
+}
+.inputs-container {
+    height: 60%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+	margin: auto;
+}
+.input, .btn {
+    width: 90%;
+    height: 3.125rem;
+    font-size: 1em;
+}
+
+.input {
+    border: none;
+    border-radius: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+}
+.input:hover {
+    border: 2px solid #FDC500;
+}
+
+.btn {
+    width: 80%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 25px;
+    background-color: #00509D;     
+}
+.btn h3{
+    color: white;
+    text-decoration: none; 
+    font-size: 25px;
+}
+.btn:hover {
+    border: 2px solid #FDC500;
+}
+img{
+width: 20%;
+display: flex;
+align-items: flex-end;
+margin-left: auto;
+margin-right: auto;
+margin-top: 2%;
+}
+.titulo{
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	font-size: 25px;
+    color: white;
+}
+.titulo2{
+	position: absolute;
+	align-content: center;
+	margin-left: 40%;
+	margin-right: auto;
+	margin-top: 3%;
+	background-color: #003F88;
+	border-radius: 25px;
+	width: 20%;
+	font-size: 20px;
+    color: white;
+}
+.bad{
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+    text-align: center;
+    color: white;
+    width: 60%;
+    background-color: red;
+    border-radius: 25px;
+}

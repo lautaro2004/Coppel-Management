@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/tiendas.css">
+    <title>Tienda 2</title>
+</head>
+<body>
+<header> 
+    <div class="top">
+        <div class="content">
+            <img class="logo" src="/IMG/Logo_de_Coppel.svg" alt="">
+            <h2>Tienda 02</h2>
+        </div>
+    </div>
+    <nav class="topnav">
+        <ul class="opt">
+            <li><a href="tienda02.html">Inicio</a></li>
+            <li><a href="#ST">Estadisticas</a></li>
+            <li><a href="#CN">CN y prestamos</a></li>
+            <li><a href="/index.html">Salir</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="bienv">
+    <h2>Bienvenido a Coppel management</h2>
+    <div class="img-bienv">
+        <img src="/IMG/undraw_co-working_re_w93t.svg" alt="">
+    </div>
+</div>
+<section class="#" id="ST"></section>
+<div class="ST">
+    <h1>Estadisticas de Clientes nuevos</h1>
+    
+    <p>Aquí puede ver las metas de su tienda y como las va realizando</p>   
+    <div class="datos">
+        <form>
+            <label>Meta de solicitudes:</label>
+            <output name="metas" for="MS"></output>
+            <br>
+            <label>Solicitudes hechas:</label>
+            <output name="cump" for="solicitudes"></output>
+            <br>
+            <br>
+            <label>Meta de tarjetas entregadas:</label>
+            <output name="metas" for="MTJE"></output>
+            <br>
+            <label>Tarjetas entregadas:</label>
+            <output name="cump" for="tarjet-ent"></output>
+            <br>
+            <br>
+            <label>Meta de activación</label>
+            <output name="metas" for="MAC"></output>
+            <br>
+            <label>Activaciones realizadas:</label>
+            <output name="cump" for="activacion"></output>
+            <br>
+        </form>
+    </div>
+    <h1>Estadisticas de Prestamos</h1>
+    <div class="datos">
+            <form>
+            <label>Meta de prestamos</label>
+            <output name="meta" for="MP"></output>
+            <br>
+            <label>Prestamos entregados:</label>
+            <output name="cump" for="rpres"></output>
+            <br>
+            <br>
+            <label>Meta de colocación</label>
+            <output name="meta" for="MC"></output>
+            <br>
+            <label>colocaciónes realizadas:</label>
+            <output name="cump" for="coloc"></output>
+            <br>
+            <br>
+        </form>
+    </div>
+</div>
+<div class="CN">
+    <section class="#" id="CN"></section>
+    <h1>Clientes nuevos</h1>
+    <p>Aquí puede ingresar diariamente los datos de clientes nuevos</p>   
+    <br>
+    <form>
+        <div class="fecha">
+            <label>Ingrese la fecha de carga</label>
+            <input class="input" type="Datetime-local" name="fecha">
+        </div>
+        <div class="datos">
+            <br>
+            <label>Ingrese las solicitudes de tarjetas:</label>
+            <input class="input" type="number" placeholder="solicitudes" name="solicitudes"><br>
+            <br>
+            <label>Ingrese las tarjetas que se entregaron:</label>
+            <input class="input" type="number" placeholder="tarjetas entregadas" name="tarjet-ent"><br>
+            <br>
+            <label>Ingrese la activacion:</label>
+            <input class="input" type="number" placeholder="activaciones" name="activacion"><br>
+            <br>
+        </div>       
+    </form>
+    <div class="P">
+        <h1>Prestamos</h1>
+        <p>Aquí puede ingresar diariamente los datos de los prestamos</p>
+        <br>
+        <form>
+            <div class="fecha">
+                <label>Ingrese la fecha de carga</label>
+                <input class="input" type="Datetime-local" name="fechaP">
+            </div>
+            <div class="datos">
+                <br>
+                <label>Ingrese el resultado de los Prestamos:</label>
+                <input class="input" type="number" placeholder="prestamos" name="rpres"><br>
+                <br>
+                <label>Ingrese la colocación:</label>
+                <input class="input" type="number" placeholder="colocación" name="coloc"><br>
+                <br>
+            </div>
+        </form> 
+    </div>
+</div>
+</body>
+</html>
