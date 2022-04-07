@@ -7,7 +7,7 @@
 body {
     height: 90vh;
     font-family: 'Poppins', sans-serif;
-    background-image: url(/IMG/fondo_azul.jpg);
+    background-image: url(../IMG/fondo_azul.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
